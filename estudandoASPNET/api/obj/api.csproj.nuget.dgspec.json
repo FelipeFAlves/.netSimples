@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/felipe/GitHub/estudandoASPNET/api/api.csproj": {}
+    "C:\\Users\\Felip\\Desktop\\.net\\.netSimples\\estudandoASPNET\\api\\api.csproj": {}
   },
   "projects": {
-    "/home/felipe/GitHub/estudandoASPNET/api/api.csproj": {
+    "C:\\Users\\Felip\\Desktop\\.net\\.netSimples\\estudandoASPNET\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/felipe/GitHub/estudandoASPNET/api/api.csproj",
+        "projectUniqueName": "C:\\Users\\Felip\\Desktop\\.net\\.netSimples\\estudandoASPNET\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "/home/felipe/GitHub/estudandoASPNET/api/api.csproj",
-        "packagesPath": "/home/felipe/.nuget/packages/",
-        "outputPath": "/home/felipe/GitHub/estudandoASPNET/api/obj/",
+        "projectPath": "C:\\Users\\Felip\\Desktop\\.net\\.netSimples\\estudandoASPNET\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\Felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felip\\Desktop\\.net\\.netSimples\\estudandoASPNET\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/felipe/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Felip\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,12 +32,30 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -57,6 +75,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
